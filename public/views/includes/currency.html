@@ -1,0 +1,14 @@
+<a uib-dropdown-toggle data-toggle="dropdown" href="#">
+  {{currency.symbol}} <span class="caret"></span>
+</a>
+<ul uib-dropdown-menu>
+  <li>
+  <a data-ng-click="setCurrency('XRD')" data-ng-class="{active: currency.symbol == 'XRD'}">XRD</a>
+  </li>
+  <li>
+  <a data-ng-click="setCurrency('mXRD')" data-ng-class="{active: currency.symbol == 'mXRD'}">mXRD</a>
+  </li>
+  <li>
+  <a data-ng-click="setCurrency('uXRD')" data-ng-class="{active: currency.symbol == 'uXRD'}">uXRD</a>
+  </li>
+</ul>
